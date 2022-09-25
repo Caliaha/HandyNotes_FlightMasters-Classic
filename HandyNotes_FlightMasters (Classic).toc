@@ -1,0 +1,10 @@
+## Interface: 11306
+## Title: HandyNotes_FlightMasters (Classic)
+## Version: @project-version@
+## Notes: Shows locations of flight masters
+## Author: Caliaha of Cairne
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_FlightMastersClassicDB
+
+locales\Locales.xml
+classic.lua
