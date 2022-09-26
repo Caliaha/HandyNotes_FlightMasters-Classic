@@ -3,6 +3,8 @@
 ## Version: @project-version@
 ## Notes: Shows locations of flight masters
 ## Author: Caliaha of Cairne
+## X-Curse-Project-ID: 339056
+## X-WoWI-ID: 25296
 ## RequiredDeps: HandyNotes
 ## SavedVariables: HandyNotes_FlightMastersClassicDB
 

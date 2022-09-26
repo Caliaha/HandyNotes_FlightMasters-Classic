@@ -182,3 +182,12 @@ nodes[1942] = {
 		faction = "Horde",
 	},
 }
+nodes[1957] = {
+	[48402520] = {
+		name = L["Ohura"],
+		category = "flightmasters",
+		fpName = 'FIXME',
+		description = L["Dragonhawk Master"],
+		faction = "Horde",
+	},
+}
