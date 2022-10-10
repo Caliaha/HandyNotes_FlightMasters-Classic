@@ -1,5 +1,5 @@
 ## Interface: 30400
-## Title: HandyNotes_FlightMasters (Classic)
+## Title: HandyNotes: FlightMasters (Classic)
 ## Version: @project-version@
 ## Notes: Shows locations of flight masters
 ## Author: Caliaha of Cairne
