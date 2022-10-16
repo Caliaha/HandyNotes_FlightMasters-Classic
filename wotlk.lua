@@ -16,6 +16,55 @@ nodes[123] = {
 		faction = "Horde",
 	},
 }
+nodes[114] = {
+	[45203440] = {
+		npcName = L["Surristrasz"],
+		name = L["Amber Ledge, Borean Tundra"],
+		faction = "Horde",
+	},
+	[40405140] = {
+		npcName = L["Turida Coldwind"],
+		name = L["Warsong Hold, Borean Tundra"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[56602000] = {
+		npcName = L["Kara Thricestar"],
+		name = L["Fizzcrank Airstrip, Borean Tundra"],
+		description = L["Air Traffic Controller"],
+		faction = "Alliance",
+	},
+	[77603780] = {
+		npcName = L["Omu Spiritbreeze"],
+		name = L["Taunka'le Village, Borean Tundra"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[49601100] = {
+		npcName = L["Kimbiza"],
+		name = L["Bor'gorok Outpost, Borean Tundra"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[58806820] = {
+		npcName = L["Tomas Riverwell"],
+		name = L["Valiance Keep, Borean Tundra"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+	[33003440] = {
+		npcName = L["Warmage Adami"],
+		name = L["Transitus Shield, Coldarra (NOT USED)"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+	[78405140] = {
+		npcName = L["Bilko Driftspark"],
+		name = L["Unu'pe, Borean Tundra"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+}
 nodes[120] = {
 	[40608460] = {
 		npcName = L["Skizzle Slickslide"],
@@ -60,105 +109,6 @@ nodes[120] = {
 		faction = "Neutral",
 	},
 }
-nodes[114] = {
-	[45203440] = {
-		npcName = L["Surristrasz"],
-		name = L["Amber Ledge, Borean Tundra"],
-		faction = "Horde",
-	},
-	[40405140] = {
-		npcName = L["Turida Coldwind"],
-		name = L["Warsong Hold, Borean Tundra"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[56602000] = {
-		npcName = L["Kara Thricestar"],
-		name = L["Quest - Borean Tundra - Check In With Bixie - Begin"],
-		description = L["Air Traffic Controller"],
-		faction = "Alliance",
-	},
-	[77603780] = {
-		npcName = L["Omu Spiritbreeze"],
-		name = L["Taunka'le Village, Borean Tundra"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[49601100] = {
-		npcName = L["Kimbiza"],
-		name = L["Bor'gorok Outpost, Borean Tundra"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[58806820] = {
-		npcName = L["Tomas Riverwell"],
-		name = L["Valiance Keep, Borean Tundra"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-	[33003440] = {
-		npcName = L["Warmage Adami"],
-		name = L["Transitus Shield, Coldarra (NOT USED)"],
-		description = L["Flight Master"],
-		faction = "Neutral",
-	},
-	[78405140] = {
-		npcName = L["Bilko Driftspark"],
-		name = L["Unu'pe, Borean Tundra"],
-		description = L["Flight Master"],
-		faction = "Neutral",
-	},
-}
-nodes[115] = {
-	[37404560] = {
-		npcName = L["Narzun Skybreaker"],
-		name = L["Agmar's Hammer, Dragonblight"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[76406220] = {
-		npcName = L["Junter Weiss"],
-		name = L["Venomspite, Dragonblight"],
-		description = L["Bat Handler"],
-		faction = "Horde",
-	},
-	[43801680] = {
-		npcName = L["Numo Spiritbreeze"],
-		name = L["Kor'koron Vanguard, Dragonblight"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[60205140] = {
-		npcName = L["Nethestrasz"],
-		name = L["Wyrmrest Temple, Dragonblight"],
-		description = L["Flight Master"],
-		faction = "Neutral",
-	},
-	[39402600] = {
-		npcName = L["Derek Rammel"],
-		name = L["Fordragon Hold, Dragonblight"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-	[77004980] = {
-		npcName = L["Rodney Wells"],
-		name = L["Quest - Westguard Keep to Wintergarde Keep End"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-	[29205540] = {
-		npcName = L["Palena Silvercloud"],
-		name = L["Stars' Rest, Dragonblight"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[48407440] = {
-		npcName = L["Cid Flounderfix"],
-		name = L["Moa'ki, Dragonblight"],
-		description = L["Flight Master"],
-		faction = "Neutral",
-	},
-}
 nodes[118] = {
 	[43602440] = {
 		npcName = L["Morlia Doomwing"],
@@ -194,7 +144,7 @@ nodes[117] = {
 	},
 	[31204400] = {
 		npcName = L["Greer Orehammer"],
-		name = L["Quest - Westguard Keep to Wintergarde Keep Begin"],
+		name = L["Westguard Keep, Howling Fjord"],
 		description = L["Gryphon Master"],
 		faction = "Alliance",
 	},
@@ -235,6 +185,56 @@ nodes[117] = {
 		faction = "Neutral",
 	},
 }
+nodes[115] = {
+	[37404560] = {
+		npcName = L["Narzun Skybreaker"],
+		name = L["Agmar's Hammer, Dragonblight"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[76406220] = {
+		npcName = L["Junter Weiss"],
+		name = L["Venomspite, Dragonblight"],
+		description = L["Bat Handler"],
+		faction = "Horde",
+	},
+	[43801680] = {
+		npcName = L["Numo Spiritbreeze"],
+		name = L["Kor'koron Vanguard, Dragonblight"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[60205140] = {
+		npcName = L["Nethestrasz"],
+		name = L["Wyrmrest Temple, Dragonblight"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+	[39402600] = {
+		npcName = L["Derek Rammel"],
+		name = L["Fordragon Hold, Dragonblight"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+	[77004980] = {
+		npcName = L["Rodney Wells"],
+		name = L["Wintergarde Keep, Dragonblight"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+	[29205540] = {
+		npcName = L["Palena Silvercloud"],
+		name = L["Stars' Rest, Dragonblight"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[48407440] = {
+		npcName = L["Cid Flounderfix"],
+		name = L["Moa'ki, Dragonblight"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+}
 nodes[119] = {
 	[25205840] = {
 		npcName = L["The Spirit of Gnomeregan"],
@@ -264,7 +264,7 @@ nodes[116] = {
 	},
 	[59802660] = {
 		npcName = L["Samuel Clearbook"],
-		name = L["Westfall Brigade, Grizzly Hills (Quest)"],
+		name = L["Westfall Brigade, Grizzly Hills"],
 		description = L["Gryphon Master"],
 		faction = "Alliance",
 	},
@@ -397,20 +397,6 @@ nodes[1946] = {
 		faction = "Alliance",
 	},
 }
-nodes[1952] = {
-	[49204340] = {
-		npcName = L["Kerna"],
-		name = L["Stonebreaker Hold, Terokkar Forest"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[59405540] = {
-		npcName = L["Furnan Skysoar"],
-		name = L["Allerian Stronghold, Terokkar Forest"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-}
 nodes[1951] = {
 	[54207500] = {
 		npcName = L["Furgu"],
@@ -425,18 +411,18 @@ nodes[1951] = {
 		faction = "Horde",
 	},
 }
-nodes[1948] = {
-	[37605540] = {
-		npcName = L["Brubeck Stormfoot"],
-		name = L["Wildhammer Stronghold, Shadowmoon Valley"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-	[30202920] = {
-		npcName = L["Drek'Gol"],
-		name = L["Shadowmoon Village, Shadowmoon Valley"],
+nodes[1952] = {
+	[49204340] = {
+		npcName = L["Kerna"],
+		name = L["Stonebreaker Hold, Terokkar Forest"],
 		description = L["Wind Rider Master"],
 		faction = "Horde",
+	},
+	[59405540] = {
+		npcName = L["Furnan Skysoar"],
+		name = L["Allerian Stronghold, Terokkar Forest"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
 	},
 }
 nodes[1949] = {
@@ -471,6 +457,20 @@ nodes[1949] = {
 		faction = "Horde",
 	},
 }
+nodes[1948] = {
+	[37605540] = {
+		npcName = L["Brubeck Stormfoot"],
+		name = L["Wildhammer Stronghold, Shadowmoon Valley"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+	[30202920] = {
+		npcName = L["Drek'Gol"],
+		name = L["Shadowmoon Village, Shadowmoon Valley"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+}
 nodes[1953] = {
 	[33806400] = {
 		npcName = L["Krexcil"],
@@ -491,28 +491,12 @@ nodes[1953] = {
 		faction = "Neutral",
 	},
 }
-nodes[1957] = {
-	[48402520] = {
-		npcName = L["Ohura"],
-		name = L["Shattered Sun Staging Area"],
-		description = L["Dragonhawk Master"],
-		faction = "Horde",
-	},
-}
 nodes[1950] = {
 	[57605400] = {
 		npcName = L["Laando"],
 		name = L["Blood Watch, Bloodmyst Isle"],
 		description = L["Hippogryph Master"],
 		faction = "Alliance",
-	},
-}
-nodes[1941] = {
-	[54405080] = {
-		npcName = L["Skymistress Gloaming"],
-		name = L["Silvermoon City"],
-		description = L["Dragonhawk Master"],
-		faction = "Horde",
 	},
 }
 nodes[1942] = {
@@ -527,6 +511,22 @@ nodes[1942] = {
 		name = L["Zul'Aman, Ghostlands"],
 		description = L["Flight Master"],
 		faction = "Neutral",
+	},
+}
+nodes[1957] = {
+	[48402520] = {
+		npcName = L["Ohura"],
+		name = L["Shattered Sun Staging Area"],
+		description = L["Dragonhawk Master"],
+		faction = "Horde",
+	},
+}
+nodes[1941] = {
+	[54405080] = {
+		npcName = L["Skymistress Gloaming"],
+		name = L["Silvermoon City"],
+		description = L["Dragonhawk Master"],
+		faction = "Horde",
 	},
 }
 nodes[1955] = {
@@ -559,6 +559,46 @@ nodes[1446] = {
 		faction = "Horde",
 	},
 }
+nodes[1445] = {
+	[67405120] = {
+		npcName = L["Baldruc"],
+		name = L["Theramore, Dustwallow Marsh"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+	[35603180] = {
+		npcName = L["Shardi"],
+		name = L["Brackenwall Village, Dustwallow Marsh"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+	[42807240] = {
+		npcName = L["Dyslix Silvergrub"],
+		name = L["Mudsprocket, Dustwallow Marsh"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+}
+nodes[1444] = {
+	[89404580] = {
+		npcName = L["Thyssiana"],
+		name = L["Thalanaar, Feralas"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[30204320] = {
+		npcName = L["Fyldren Moonfeather"],
+		name = L["Feathermoon, Feralas"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[75404420] = {
+		npcName = L["Shyn"],
+		name = L["Camp Mojache, Feralas"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+}
 nodes[1440] = {
 	[34404800] = {
 		npcName = L["Daelyshia"],
@@ -585,26 +625,6 @@ nodes[1440] = {
 		faction = "Alliance",
 	},
 }
-nodes[1444] = {
-	[89404580] = {
-		npcName = L["Thyssiana"],
-		name = L["Thalanaar, Feralas"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[30204320] = {
-		npcName = L["Fyldren Moonfeather"],
-		name = L["Feathermoon, Feralas"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[75404420] = {
-		npcName = L["Shyn"],
-		name = L["Camp Mojache, Feralas"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-}
 nodes[1413] = {
 	[44405900] = {
 		npcName = L["Omusa Thunderhorn"],
@@ -625,23 +645,23 @@ nodes[1413] = {
 		faction = "Horde",
 	},
 }
-nodes[1445] = {
-	[67405120] = {
-		npcName = L["Baldruc"],
-		name = L["Theramore, Dustwallow Marsh"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-	[35603180] = {
-		npcName = L["Shardi"],
-		name = L["Brackenwall Village, Dustwallow Marsh"],
+nodes[1448] = {
+	[34405380] = {
+		npcName = L["Brakkar"],
+		name = L["Bloodvenom Post, Felwood"],
 		description = L["Wind Rider Master"],
 		faction = "Horde",
 	},
-	[42807240] = {
-		npcName = L["Dyslix Silvergrub"],
-		name = L["Mudsprocket, Dustwallow Marsh"],
-		description = L["Flight Master"],
+	[62402420] = {
+		npcName = L["Mishellena"],
+		name = L["Talonbranch Glade, Felwood"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[51408220] = {
+		npcName = L["Gorrim"],
+		name = L["Emerald Sanctuary, Felwood"],
+		description = L["Emerald Circle Flight Master"],
 		faction = "Neutral",
 	},
 }
@@ -655,6 +675,20 @@ nodes[1452] = {
 	[60403640] = {
 		npcName = L["Yugrek"],
 		name = L["Everlook, Winterspring"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
+	},
+}
+nodes[1443] = {
+	[64601040] = {
+		npcName = L["Baritanas Skyriver"],
+		name = L["Nijel's Point, Desolace"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[21607400] = {
+		npcName = L["Thalon"],
+		name = L["Shadowprey Village, Desolace"],
 		description = L["Wind Rider Master"],
 		faction = "Horde",
 	},
@@ -681,54 +715,6 @@ nodes[1441] = {
 		faction = "Horde",
 	},
 }
-nodes[1448] = {
-	[34405380] = {
-		npcName = L["Brakkar"],
-		name = L["Bloodvenom Post, Felwood"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-	[62402420] = {
-		npcName = L["Mishellena"],
-		name = L["Talonbranch Glade, Felwood"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[51408220] = {
-		npcName = L["Gorrim"],
-		name = L["Emerald Sanctuary, Felwood"],
-		description = L["Emerald Circle Flight Master"],
-		faction = "Neutral",
-	},
-}
-nodes[1451] = {
-	[50603440] = {
-		npcName = L["Cloud Skydancer"],
-		name = L["Cenarion Hold, Silithus"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[48803660] = {
-		npcName = L["Runk Windtamer"],
-		name = L["Cenarion Hold, Silithus"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-}
-nodes[1443] = {
-	[64601040] = {
-		npcName = L["Baritanas Skyriver"],
-		name = L["Nijel's Point, Desolace"],
-		description = L["Hippogryph Master"],
-		faction = "Alliance",
-	},
-	[21607400] = {
-		npcName = L["Thalon"],
-		name = L["Shadowprey Village, Desolace"],
-		description = L["Wind Rider Master"],
-		faction = "Horde",
-	},
-}
 nodes[1449] = {
 	[45200580] = {
 		npcName = L["Gryfe"],
@@ -749,6 +735,20 @@ nodes[1442] = {
 		name = L["Stonetalon Peak, Stonetalon Mountains"],
 		description = L["Hippogryph Master"],
 		faction = "Alliance",
+	},
+}
+nodes[1451] = {
+	[50603440] = {
+		npcName = L["Cloud Skydancer"],
+		name = L["Cenarion Hold, Silithus"],
+		description = L["Hippogryph Master"],
+		faction = "Alliance",
+	},
+	[48803660] = {
+		npcName = L["Runk Windtamer"],
+		name = L["Cenarion Hold, Silithus"],
+		description = L["Wind Rider Master"],
+		faction = "Horde",
 	},
 }
 nodes[1450] = {
@@ -839,20 +839,6 @@ nodes[1434] = {
 		faction = "Alliance",
 	},
 }
-nodes[1424] = {
-	[60201860] = {
-		npcName = L["Zarise"],
-		name = L["Tarren Mill, Hillsbrad"],
-		description = L["Bat Handler"],
-		faction = "Horde",
-	},
-	[49405220] = {
-		npcName = L["Darla Harris"],
-		name = L["Southshore, Hillsbrad"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-}
 nodes[1417] = {
 	[45604600] = {
 		npcName = L["Cedrik Prose"],
@@ -887,14 +873,6 @@ nodes[1423] = {
 		faction = "Neutral",
 	},
 }
-nodes[1433] = {
-	[30605940] = {
-		npcName = L["Ariena Stormfeather"],
-		name = L["Lakeshire, Redridge"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-}
 nodes[1437] = {
 	[9405960] = {
 		npcName = L["Shellei Brondir"],
@@ -903,10 +881,32 @@ nodes[1437] = {
 		faction = "Alliance",
 	},
 }
-nodes[1431] = {
-	[77404440] = {
-		npcName = L["Felicia Maline"],
-		name = L["Darkshire, Duskwood"],
+nodes[1433] = {
+	[30605940] = {
+		npcName = L["Ariena Stormfeather"],
+		name = L["Lakeshire, Redridge"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+}
+nodes[1424] = {
+	[60201860] = {
+		npcName = L["Zarise"],
+		name = L["Tarren Mill, Hillsbrad"],
+		description = L["Bat Handler"],
+		faction = "Horde",
+	},
+	[49405220] = {
+		npcName = L["Darla Harris"],
+		name = L["Southshore, Hillsbrad"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+}
+nodes[1419] = {
+	[65402440] = {
+		npcName = L["Alexandra Constantine"],
+		name = L["Nethergarde Keep, Blasted Lands"],
 		description = L["Gryphon Master"],
 		faction = "Alliance",
 	},
@@ -917,14 +917,6 @@ nodes[1418] = {
 		name = L["Kargath, Badlands"],
 		description = L["Wind Rider Master"],
 		faction = "Horde",
-	},
-}
-nodes[1419] = {
-	[65402440] = {
-		npcName = L["Alexandra Constantine"],
-		name = L["Nethergarde Keep, Blasted Lands"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
 	},
 }
 nodes[1422] = {
@@ -939,6 +931,14 @@ nodes[1422] = {
 		name = L["Thondoril River, Western Plaguelands"],
 		description = L["Flight Master"],
 		faction = "Neutral",
+	},
+}
+nodes[1431] = {
+	[77404440] = {
+		npcName = L["Felicia Maline"],
+		name = L["Darkshire, Duskwood"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
 	},
 }
 nodes[1435] = {
@@ -963,6 +963,30 @@ nodes[1427] = {
 		faction = "Horde",
 	},
 }
+nodes[1421] = {
+	[45604240] = {
+		npcName = L["Karos Razok"],
+		name = L["The Sepulcher, Silverpine Forest"],
+		description = L["Bat Handler"],
+		faction = "Horde",
+	},
+}
+nodes[1420] = {
+	[83407000] = {
+		npcName = L["Timothy Cunningham"],
+		name = L["The Bulwark, Tirisfal"],
+		description = L["Bat Handler"],
+		faction = "Horde",
+	},
+}
+nodes[1436] = {
+	[56405260] = {
+		npcName = L["Thor"],
+		name = L["Sentinel Hill, Westfall"],
+		description = L["Gryphon Master"],
+		faction = "Alliance",
+	},
+}
 nodes[1428] = {
 	[84406820] = {
 		npcName = L["Borgus Stoutarm"],
@@ -977,36 +1001,12 @@ nodes[1428] = {
 		faction = "Horde",
 	},
 }
-nodes[1436] = {
-	[56405260] = {
-		npcName = L["Thor"],
-		name = L["Sentinel Hill, Westfall"],
-		description = L["Gryphon Master"],
-		faction = "Alliance",
-	},
-}
-nodes[1421] = {
-	[45604240] = {
-		npcName = L["Karos Razok"],
-		name = L["The Sepulcher, Silverpine Forest"],
-		description = L["Bat Handler"],
-		faction = "Horde",
-	},
-}
 nodes[1432] = {
 	[33805080] = {
 		npcName = L["Thorgrum Borrelson"],
 		name = L["Thelsamar, Loch Modan"],
 		description = L["Gryphon Master"],
 		faction = "Alliance",
-	},
-}
-nodes[1420] = {
-	[83407000] = {
-		npcName = L["Timothy Cunningham"],
-		name = L["The Bulwark, Tirisfal"],
-		description = L["Bat Handler"],
-		faction = "Horde",
 	},
 }
 nodes[125] = {
