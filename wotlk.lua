@@ -54,7 +54,7 @@ nodes[114] = {
 	},
 	[33003440] = {
 		npcName = L["Warmage Adami"],
-		name = L["Transitus Shield, Coldarra (NOT USED)"],
+		name = L["Transitus Shield, Coldarra"],
 		description = L["Flight Master"],
 		faction = "Neutral",
 	},
@@ -131,6 +131,12 @@ nodes[118] = {
 	[19404780] = {
 		npcName = L["Dreadwind"],
 		name = L["Death's Rise, Icecrown"],
+		description = L["Flight Master"],
+		faction = "Neutral",
+	},
+	[72602260] = {
+		npcName = L["Helidan Lightwing"],
+		name = L["Argent Tournament Grounds, Icecrown"],
 		description = L["Flight Master"],
 		faction = "Neutral",
 	},

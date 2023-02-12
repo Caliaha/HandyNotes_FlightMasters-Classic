@@ -185,8 +185,13 @@ function Addon:PLAYER_ENTERING_WORLD()
 end
 
 function Addon:TAXIMAP_OPENED()
-	for i = 1, NumTaxiNodes() do
-		self.db.char.learned[TaxiNodeName(i)] = true
+	taxiNodes = C_TaxiMap.GetAllTaxiNodes(GetTaxiMapID())
+	for k, v in pairs(taxiNodes) do
+		if v.state == Enum.FlightPathState.Unreachable then
+			self.db.char.learned[v.name] = false
+		else
+			self.db.char.learned[v.name] = true
+		end
 	end
 	updateStuff()
 end
